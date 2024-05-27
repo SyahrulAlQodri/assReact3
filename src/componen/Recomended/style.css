@@ -1,0 +1,61 @@
+.menu {
+    padding: 2rem 0;
+}
+
+.menu h2 {
+    margin-bottom: 2rem;
+    font-size: 2.25rem;
+}
+
+.menu .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.menu .grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+}
+
+/* Menu item styles */
+.menu .overflow-hidden {
+    overflow: hidden;
+}
+
+.menu .rounded-lg {
+    border-radius: 0.5rem;
+}
+
+.menu .shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.menu .transition-transform {
+    transition-property: transform;
+}
+
+.menu .hover\:scale-105:hover {
+    transform: scale(1.05);
+}
+
+.menu .hover\:shadow-xl:hover {
+    box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+}
+
+.menu img {
+    width: 100%;
+    height: 64px;
+    object-fit: cover;
+}
+
+.menu .p-4 {
+    padding: 1rem;
+}
+
+.menu .font-semibold {
+    font-weight: 600;
+}
+
+.menu .text-gray-700 {
+    color: #4a5568;
+}
